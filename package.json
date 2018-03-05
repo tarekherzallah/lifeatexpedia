@@ -1,0 +1,25 @@
+{
+  "name": "lifeatexpedia",
+  "version": "1.0.0",
+  "description": "lifeatexpedia",
+  "main": "lifeatexpedia.js",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "get-json": "^1.0.0",
+    "JSON": "^1.0.0",
+    "https": "^1.0.0",
+    "request": "^2.83.0",
+    "response": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lifeatexpedia"
+  },
+  "author": "Tarek Herzallah",
+  "license": "ISC"
+}
