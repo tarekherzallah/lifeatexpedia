@@ -4,7 +4,7 @@ var app = express();
 
 var server = app.listen(process.env.PORT || 10484, listening);
 
-app.use(express.static('lifeatexpedia'));
+//app.use(express.static('lifeatexpedia'));
 
 function listening()
 {
