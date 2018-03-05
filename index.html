@@ -127,7 +127,7 @@
 		// run an AJAX get request to the route you setup above...
 		// respect the cross-domain policy by using the same domain
 		// you used to access your index.html file!
-		$.get('http://localhost:10484/loadAll' , function(list) {
+		$.get('https://lifeatexpedia.herokuapp.com/loadAll' , function(list) {
 			$('#js_itemlist').html(list); // show the list
 		});
     });
@@ -138,13 +138,13 @@
             // you used to access your index.html file!
 			if(document.getElementById('horus-querytext').value != '')
 			{
-				$.get('http://localhost:10484/search/' + document.getElementById('horus-querytext').value, function(list) {
+				$.get('https://lifeatexpedia.herokuapp.com/search/' + document.getElementById('horus-querytext').value, function(list) {
 					$('#js_itemlist').html(list); // show the list
 				});
 			}
 			else 
 			{
-				$.get('http://localhost:10484/loadAll' , function(list) {
+				$.get('https://lifeatexpedia.herokuapp.com/loadAll' , function(list) {
 					$('#js_itemlist').html(list); // show the list
 				});
 			}
@@ -155,13 +155,13 @@
 		if(e.keyCode == 13) {
 			if(document.getElementById('horus-querytext').value != '')
 			{
-				$.get('http://localhost:10484/search/' + document.getElementById('horus-querytext').value, function(list) {
+				$.get('https://lifeatexpedia.herokuapp.com/search/' + document.getElementById('horus-querytext').value, function(list) {
 					$('#js_itemlist').html(list); // show the list
 				});
 			}
 			else 
 			{
-				$.get('http://localhost:10484/loadAll' , function(list) {
+				$.get('https://lifeatexpedia.herokuapp.com/loadAll' , function(list) {
 					$('#js_itemlist').html(list); // show the list
 				});
 			}
